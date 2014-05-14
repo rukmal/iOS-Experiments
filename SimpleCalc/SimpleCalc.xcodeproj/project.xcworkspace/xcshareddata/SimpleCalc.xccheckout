@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>3DB2623B-204F-4DE1-A160-E5D9370FD9E4</string>
+	<string>FA7B7191-97E6-4735-B08C-547ACD16064B</string>
 	<key>IDESourceControlProjectName</key>
-	<string>HelloWorld</string>
+	<string>SimpleCalc</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>8E90F87E-BF74-435E-95D2-D8792D49037F</key>
 		<string>ssh://github.com/rukmal/iOS-Experiments.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>HelloWorld/HelloWorld.xcodeproj/project.xcworkspace</string>
+	<string>SimpleCalc/SimpleCalc.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8E90F87E-BF74-435E-95D2-D8792D49037F</key>
