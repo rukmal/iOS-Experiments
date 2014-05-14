@@ -10,9 +10,17 @@
 
 @interface RWViewController ()
 
+@property NSInteger currentCount;
+
 @end
 
 @implementation RWViewController
+
+- (id)init
+{
+    [self setCurrentCount:0];
+    return self;
+}
 
 - (void)viewDidLoad
 {
@@ -26,12 +34,17 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)HWTrigger:(id)sender {
-    NSLog(@"Hello World");
+    [self incrementCounter];
+    NSString *message = [NSString stringWithFormat:@"This is hello world #%d", (int)self.currentCount];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Hello World!" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [alert show];
+
 }
 
-- (void)counter:(NSInteger)current
+- (void)incrementCounter
 {
-    
+    NSInteger current = self.currentCount;
+    [self setCurrentCount:(current + 1)];
 }
 
 @end

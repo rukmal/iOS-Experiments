@@ -14,7 +14,6 @@
 		ABB52F7D1923237A006B58E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB52F7C1923237A006B58E0 /* main.m */; };
 		ABB52F811923237A006B58E0 /* RWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB52F801923237A006B58E0 /* RWAppDelegate.m */; };
 		ABB52F841923237A006B58E0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB52F821923237A006B58E0 /* Main_iPhone.storyboard */; };
-		ABB52F871923237A006B58E0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB52F851923237A006B58E0 /* Main_iPad.storyboard */; };
 		ABB52F8A1923237A006B58E0 /* RWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB52F891923237A006B58E0 /* RWViewController.m */; };
 		ABB52F8C1923237A006B58E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB52F8B1923237A006B58E0 /* Images.xcassets */; };
 		ABB52F931923237A006B58E0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB52F921923237A006B58E0 /* XCTest.framework */; };
@@ -46,7 +45,6 @@
 		ABB52F7F1923237A006B58E0 /* RWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWAppDelegate.h; sourceTree = "<group>"; };
 		ABB52F801923237A006B58E0 /* RWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWAppDelegate.m; sourceTree = "<group>"; };
 		ABB52F831923237A006B58E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		ABB52F861923237A006B58E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		ABB52F881923237A006B58E0 /* RWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWViewController.h; sourceTree = "<group>"; };
 		ABB52F891923237A006B58E0 /* RWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWViewController.m; sourceTree = "<group>"; };
 		ABB52F8B1923237A006B58E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 				ABB52F7F1923237A006B58E0 /* RWAppDelegate.h */,
 				ABB52F801923237A006B58E0 /* RWAppDelegate.m */,
 				ABB52F821923237A006B58E0 /* Main_iPhone.storyboard */,
-				ABB52F851923237A006B58E0 /* Main_iPad.storyboard */,
 				ABB52F881923237A006B58E0 /* RWViewController.h */,
 				ABB52F891923237A006B58E0 /* RWViewController.m */,
 				ABB52F8B1923237A006B58E0 /* Images.xcassets */,
@@ -232,7 +229,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABB52F871923237A006B58E0 /* Main_iPad.storyboard in Resources */,
 				ABB52F8C1923237A006B58E0 /* Images.xcassets in Resources */,
 				ABB52F841923237A006B58E0 /* Main_iPhone.storyboard in Resources */,
 				ABB52F7B1923237A006B58E0 /* InfoPlist.strings in Resources */,
@@ -293,14 +289,6 @@
 				ABB52F831923237A006B58E0 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		ABB52F851923237A006B58E0 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABB52F861923237A006B58E0 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		ABB52F9B1923237A006B58E0 /* InfoPlist.strings */ = {
