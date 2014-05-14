@@ -1,14 +1,14 @@
 //
-//  RWAppDelegate.m
+//  HWAppDelegate.m
 //  HelloWorld
 //
 //  Created by Rukmal Weerawarana on 5/13/14.
 //  Copyright (c) 2014 Rukmal Weerawarana. All rights reserved.
 //
 
-#import "RWAppDelegate.h"
+#import "HWAppDelegate.h"
 
-@implementation RWAppDelegate
+@implementation HWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
