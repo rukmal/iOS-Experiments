@@ -1,5 +1,5 @@
 //
-//  HWAppDelegate.h
+//  RWAppDelegate.h
 //  HelloWorld
 //
 //  Created by Rukmal Weerawarana on 5/13/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HWAppDelegate : UIResponder <UIApplicationDelegate>
+@interface RWAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

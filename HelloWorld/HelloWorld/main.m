@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "HWAppDelegate.h"
+#import "RWAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([HWAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([RWAppDelegate class]));
     }
 }
