@@ -22,6 +22,9 @@
                                 <state key="normal" title="Hello World">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="HWTrigger:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yG7-bE-wKv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

@@ -25,5 +25,13 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)HWTrigger:(id)sender {
+    NSLog(@"Hello World");
+}
+
+- (void)counter:(NSInteger)current
+{
+    
+}
 
 @end
