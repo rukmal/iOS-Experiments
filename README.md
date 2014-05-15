@@ -6,7 +6,8 @@ My personal repository to experiment with iOS development.
 
 |Project Name|Functionality|
 |:-----------|:------------|
-|Hello World!|Simple 'hello world' application with a button that spawns a popup box with some text and a counter for the number of times the button has been pressed since the application has been opened|
+|Hello World!|Simple 'hello world' application with a button that spawns a popup box with some text and a counter for the number of times the button has been pressed since the application has been opened.|
+|Simple Calc|A simple calculator that has adding, subtracting, multiplication and division. It also has a 'history' page that has a list of past operations that were performed in the current session.|
 
 ## Contact
 
