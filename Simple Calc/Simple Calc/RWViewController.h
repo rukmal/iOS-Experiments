@@ -1,5 +1,5 @@
 //
-//  RWAppDelegate.h
+//  RWViewController.h
 //  Simple Calc
 //
 //  Created by Rukmal Weerawarana on 5/15/14.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RWAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface RWViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIPickerView *optionPicker;
 
 @end

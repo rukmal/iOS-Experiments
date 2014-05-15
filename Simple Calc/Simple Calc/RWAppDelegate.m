@@ -2,7 +2,7 @@
 //  RWAppDelegate.m
 //  Simple Calc
 //
-//  Created by Rukmal Weerawarana on 5/14/14.
+//  Created by Rukmal Weerawarana on 5/15/14.
 //  Copyright (c) 2014 Rukmal Weerawarana. All rights reserved.
 //
 
@@ -12,13 +12,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
     return YES;
 }
-
+							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

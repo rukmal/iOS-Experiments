@@ -2,7 +2,7 @@
 //  main.m
 //  Simple Calc
 //
-//  Created by Rukmal Weerawarana on 5/14/14.
+//  Created by Rukmal Weerawarana on 5/15/14.
 //  Copyright (c) 2014 Rukmal Weerawarana. All rights reserved.
 //
 

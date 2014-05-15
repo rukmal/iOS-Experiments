@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ABB52FEB19244C73006B58E0"
+               BlueprintIdentifier = "ABB530281924A35A006B58E0"
                BuildableName = "Simple Calc.app"
                BlueprintName = "Simple Calc"
                ReferencedContainer = "container:Simple Calc.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ABB5300619244C73006B58E0"
+               BlueprintIdentifier = "ABB530491924A35A006B58E0"
                BuildableName = "Simple CalcTests.xctest"
                BlueprintName = "Simple CalcTests"
                ReferencedContainer = "container:Simple Calc.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ABB52FEB19244C73006B58E0"
+            BlueprintIdentifier = "ABB530281924A35A006B58E0"
             BuildableName = "Simple Calc.app"
             BlueprintName = "Simple Calc"
             ReferencedContainer = "container:Simple Calc.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ABB52FEB19244C73006B58E0"
+            BlueprintIdentifier = "ABB530281924A35A006B58E0"
             BuildableName = "Simple Calc.app"
             BlueprintName = "Simple Calc"
             ReferencedContainer = "container:Simple Calc.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ABB52FEB19244C73006B58E0"
+            BlueprintIdentifier = "ABB530281924A35A006B58E0"
             BuildableName = "Simple Calc.app"
             BlueprintName = "Simple Calc"
             ReferencedContainer = "container:Simple Calc.xcodeproj">
