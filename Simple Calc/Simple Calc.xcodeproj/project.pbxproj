@@ -19,6 +19,7 @@
 		ABB5300B19244C73006B58E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB52FF319244C73006B58E0 /* UIKit.framework */; };
 		ABB5301319244C73006B58E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABB5301119244C73006B58E0 /* InfoPlist.strings */; };
 		ABB5301519244C73006B58E0 /* Simple_CalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB5301419244C73006B58E0 /* Simple_CalcTests.m */; };
+		ABB5301F19244CF7006B58E0 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB5301E19244CF7006B58E0 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		ABB5301019244C73006B58E0 /* Simple CalcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple CalcTests-Info.plist"; sourceTree = "<group>"; };
 		ABB5301219244C73006B58E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ABB5301419244C73006B58E0 /* Simple_CalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_CalcTests.m; sourceTree = "<group>"; };
+		ABB5301E19244CF7006B58E0 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				ABB52FFF19244C73006B58E0 /* RWAppDelegate.m */,
 				ABB5300119244C73006B58E0 /* Images.xcassets */,
 				ABB52FF619244C73006B58E0 /* Supporting Files */,
+				ABB5301E19244CF7006B58E0 /* Storyboard.storyboard */,
 			);
 			path = "Simple Calc";
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			files = (
 				ABB52FFA19244C73006B58E0 /* InfoPlist.strings in Resources */,
 				ABB5300219244C73006B58E0 /* Images.xcassets in Resources */,
+				ABB5301F19244CF7006B58E0 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

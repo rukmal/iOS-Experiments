@@ -40,6 +40,9 @@
     [alert show];
 
 }
+- (IBAction)HWClearCount:(id)sender {
+    [self setCurrentCount:0];
+}
 
 - (void)incrementCounter
 {
