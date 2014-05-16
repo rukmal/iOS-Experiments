@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RWViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIPickerView *optionPicker;
+@interface RWViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
+@property (strong, nonatomic) IBOutlet UIPickerView *optionPicker;
+@property (strong, nonatomic) NSArray *options;
 
 @end

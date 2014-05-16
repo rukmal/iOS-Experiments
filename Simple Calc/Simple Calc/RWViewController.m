@@ -14,23 +14,36 @@
 
 @implementation RWViewController
 
-- (id)init
+- (id) init
 {
-    UIViewController *optionPicker = [UIViewController new];
-    NSLog(@"Hello World");
+    self.options = [[NSArray init] initWithObjects:@"Add", @"Subtract", @"Multiply", @"Divide", nil];
     return self;
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
+{
+    return 1;
+}
+// returns the # of rows in each component
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
+{
+    return [self.options count];
+}
+
+// tell the picker the title for a given component
+- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
+    return [self.options objectAtIndex:row];
 }
 
 @end
