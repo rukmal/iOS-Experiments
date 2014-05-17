@@ -10,5 +10,6 @@
 
 @interface RWViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
 @property (strong, nonatomic) IBOutlet UIPickerView *optionPicker;
+@property (weak, nonatomic) IBOutlet UIButton *calculateButton;
 
 @end

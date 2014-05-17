@@ -457,6 +457,7 @@
 				ABB5305D1924A35A006B58E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABB5305E1924A35A006B58E0 /* Build configuration list for PBXNativeTarget "Simple CalcTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +466,7 @@
 				ABB530601924A35A006B58E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
