@@ -10,6 +10,5 @@
 
 @interface RWViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
 @property (strong, nonatomic) IBOutlet UIPickerView *optionPicker;
-@property (strong, nonatomic) NSArray *options;
 
 @end

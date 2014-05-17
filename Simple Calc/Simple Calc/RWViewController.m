@@ -10,19 +10,18 @@
 
 @interface RWViewController ()
 
+@property (strong, nonatomic) NSArray *options;
+
 @end
 
 @implementation RWViewController
 
-- (id) init
-{
-    self.options = [[NSArray init] initWithObjects:@"Add", @"Subtract", @"Multiply", @"Divide", nil];
-    return self;
-}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSArray *data = [[NSArray alloc] initWithObjects:@"Add", @"Subtract", @"Multiply", @"Divide", nil];
+    _options = data;
 }
 
 - (void)didReceiveMemoryWarning
@@ -31,19 +30,22 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark Picker Data source methods
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
 {
     return 1;
 }
-// returns the # of rows in each component
+
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
 {
-    return [self.options count];
+    return [_options count];
 }
 
-// tell the picker the title for a given component
-- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
-    return [self.options objectAtIndex:row];
+#pragma Picker delegate methods
+
+-(NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
+{
+    return [_options objectAtIndex:row];
 }
 
 @end
