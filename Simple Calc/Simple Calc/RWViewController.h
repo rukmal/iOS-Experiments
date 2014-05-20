@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RWViewController : UIViewController
+@interface RWViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
+@property (weak, nonatomic) IBOutlet UIPickerView *operationPicker;
 
 @end

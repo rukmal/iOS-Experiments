@@ -10,6 +10,8 @@
 
 @interface RWViewController ()
 
+@property NSArray *operations;
+
 @end
 
 @implementation RWViewController
@@ -17,6 +19,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    _operations = [[NSArray alloc] initWithObjects:@"Add", @"Subtract", @"Multiply", @"Divide", nil];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -24,6 +27,21 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma Picker view stuff
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
+    return 1;
+}
+
+// returns the # of rows in each component..
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
+    return [_operations count];
+}
+
+-(NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
+{
+    return [_operations objectAtIndex:row];
 }
 
 @end
