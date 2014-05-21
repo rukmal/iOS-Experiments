@@ -20,7 +20,8 @@
 {
     [super viewDidLoad];
     _operations = [[NSArray alloc] initWithObjects:@"Add", @"Subtract", @"Multiply", @"Divide", nil];
-	// Do any additional setup after loading the view, typically from a nib.
+    _number1.keyboardType = UIKeyboardTypeDecimalPad;
+    _number2.keyboardType = UIKeyboardTypeDecimalPad;
 }
 
 - (void)didReceiveMemoryWarning
@@ -44,4 +45,9 @@
     return [_operations objectAtIndex:row];
 }
 
+- (IBAction)calculateTrigger:(id)sender {
+    NSString *no1text = _number1.text;
+    NSLog(@"%@", no1text);
+    NSLog(@"ere");
+}
 @end

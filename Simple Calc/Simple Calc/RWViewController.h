@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface RWViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
+
 @property (weak, nonatomic) IBOutlet UIPickerView *operationPicker;
+@property (weak, nonatomic) IBOutlet UITextField *number1;
+@property (weak, nonatomic) IBOutlet UITextField *number2;
+- (IBAction)calculateTrigger:(id)sender;
 
 @end
