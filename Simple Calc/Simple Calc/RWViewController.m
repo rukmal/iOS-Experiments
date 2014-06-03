@@ -20,8 +20,21 @@
 {
     [super viewDidLoad];
     _operations = [[NSArray alloc] initWithObjects:@"Add", @"Subtract", @"Multiply", @"Divide", nil];
-    _number1.keyboardType = UIKeyboardTypeDecimalPad;
-    _number2.keyboardType = UIKeyboardTypeDecimalPad;
+    [_number2 setDelegate:self];
+    [_number2 setReturnKeyType:UIReturnKeyDone];
+    [_number2 addTarget:self
+                 action:@selector(textFieldFinished:)
+       forControlEvents:UIControlEventEditingDidEndOnExit];
+    [_number1 setDelegate:self];
+    [_number1 setReturnKeyType:UIReturnKeyDone];
+    [_number1 addTarget:self
+                       action:@selector(textFieldFinished:)
+             forControlEvents:UIControlEventEditingDidEndOnExit];
+}
+
+- (void)textFieldFinished:(id)sender
+{
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -47,7 +60,8 @@
 
 - (IBAction)calculateTrigger:(id)sender {
     NSString *no1text = _number1.text;
+    NSString *no2text = _number2.text;
     NSLog(@"%@", no1text);
-    NSLog(@"ere");
+    NSLog(@"%@", no2text);
 }
 @end

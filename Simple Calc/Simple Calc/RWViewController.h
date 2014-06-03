@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RWViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
+@interface RWViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UIPickerView *operationPicker;
-@property (weak, nonatomic) IBOutlet UITextField *number1;
-@property (weak, nonatomic) IBOutlet UITextField *number2;
+@property (strong, nonatomic) IBOutlet UITextField *number1;
+@property (strong, nonatomic) IBOutlet UITextField *number2;
 - (IBAction)calculateTrigger:(id)sender;
 
 @end
