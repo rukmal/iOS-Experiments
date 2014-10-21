@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>11D283D7-B4D5-4160-AEE9-1EB16D46B600</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Currency Converter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AE07848EE616ED604D3A5495704FC2A276BFEB39</key>
+		<string>github.com:rukmal/iOS-Experiments.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Currency Converter/Currency Converter.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AE07848EE616ED604D3A5495704FC2A276BFEB39</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:rukmal/iOS-Experiments.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AE07848EE616ED604D3A5495704FC2A276BFEB39</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AE07848EE616ED604D3A5495704FC2A276BFEB39</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-Experiments</string>
+		</dict>
+	</array>
+</dict>
+</plist>
