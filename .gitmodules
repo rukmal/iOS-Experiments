@@ -1,0 +1,3 @@
+[submodule "Currency Converter/Alamofire"]
+	path = Currency Converter/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
